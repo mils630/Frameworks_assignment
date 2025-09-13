@@ -1,53 +1,39 @@
-# Frameworks Assignment: CORD-19 Data Explorer
+# CORD-19 Data Explorer
 
-## Overview
-This project explores the CORD-19 research dataset (`metadata.csv`) and provides:
-- Data exploration and cleaning
-- Basic visualizations
-- A simple **Streamlit app** for interactive exploration
+This project is a simple Streamlit app for exploring a sample of the CORD-19 COVID-19 research papers dataset.
 
-## Repo Structure
-`analysis.ipynb` → Jupyter notebook with data cleaning, analysis, and visualizations.
-- `app.py` → Streamlit web app for interactive data exploration.
-- `requirements.txt` → List of dependencies.
-- `README.md` → Documentation.
+## Setup Instructions
 
-How to Run
-1. Clone this repository:
-   ```bash
-   git clone <your_repo_url>
-   cd Frameworks_Assignment
+1. Clone the repository:
 
-          Install requirements:
+```bash
+git clone https://github.com/mils630/Frameworks_Assignment.git
+cd Frameworks_Assignment
+```
+
+2. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/Scripts/activate  # Windows
+# or
+source venv/bin/activate      # macOS/Linux
+```
+
+3. Install required packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-from the official CORD-19 Kaggle dataset
-.
+4. Run the Streamlit app:
 
-After downloading, place the file into this folder: frameworks_assignement/data/metadata.csv
-
-
-           Run Streamlit app:
+```bash
 streamlit run app.py
+```
 
-Open the link provided in your terminal to view the app in your browser.
+## Friendly Reminder
 
-📊 Features
-
-Publications over time (line chart)
-
-Top journals (bar chart)
-
-Word cloud of paper titles
-
-Top data sources (bar chart)
-
-Interactive year filter
-
-Sample data table
-
-📝 Reflection
-
-Challenges: Handling missing values (many abstracts/titles missing).
-
-Learning: Practiced data cleaning, basic visualization, and building an interactive app with Streamlit.
+- The full `metadata.csv` is **not included** because it is very large.  
+- Use `data/sample_metadata.csv` for testing and deployment.  
+- Make sure your virtual environment is active when running the app.
