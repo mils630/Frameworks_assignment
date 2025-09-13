@@ -4,6 +4,7 @@ This project is a simple Streamlit app for exploring a sample of the CORD-19 COV
 
 Streamlit app link: 
 https://mils630-frameworks-assignment-app-5fbqrp.streamlit.app/
+NOTE: this app is running on a smaple metadata.csv and not the full data, this is purely optional and users can use the the full metadata.csv but in chunks.
 
 ## Setup Instructions
 
