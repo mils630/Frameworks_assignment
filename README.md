@@ -2,6 +2,9 @@
 
 This project is a simple Streamlit app for exploring a sample of the CORD-19 COVID-19 research papers dataset.
 
+Streamlit app link: 
+https://mils630-frameworks-assignment-app-5fbqrp.streamlit.app/
+
 ## Setup Instructions
 
 1. Clone the repository:
